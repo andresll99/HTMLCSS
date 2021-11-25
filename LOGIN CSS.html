@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>PEGASUS CAPITAL S.A.S.</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="header"><img src="imagen/PEGASUS_LOGO.png" width="300" height="150"></div>
+            <div id="nav"><h1>PÁGINA DE INICIÓN DE SESIÓN</h1></div>
+            <div id="contenido"> 
+                <div id="section">Introduzca los siguientes datos: 
+                    <form>
+                        <article class="art">
+                            <h3>Introduzca su Nombre Completo</h3>
+                            <label for="nombre"></label>
+                            <input type="text" name="nombre" id="nombre" maxlength="50">
+                        </article>
+                        <article class="art">                
+                            <h3>Introduzca su Password</h3>
+                            <label for="clave"></label>
+                            <input type="password" name="clave" id="clave" maxlength="15">
+                        </article>
+                        <article class="art">
+                            <h3>Introduzca su Edad</h3>
+                            <label for="spinner"></label>
+                            <input type="number" name="spinner" id="spinner" min="18" max="120" step="1">
+                        </article>
+                        <article class="art">                
+                            <h3>Introduzca su Tipo de Documento</h3>
+                            <select name="tipo_documento" id="tipo_documento">Tipo de Documento
+                                <option value="TI">Tarjeta de Identidad</option>
+                                <option value="CC">Cedula de ciudadania</option>
+                                <option value="CE">Cedula de extranjeria</option>                
+                            </select>
+                        </article>
+                        <article class="art">
+                            <h3>Introduza su Estado Civil</h3>
+                            <label for="estado_civil"></label>
+                            <input type="radio" name="estado_civil" id="estado_civil" value="S">Soltero
+                            <input type="radio" name="estado_civil" id="estado_civil" value="C">Casado
+                            <input type="radio" name="estado_civil" id="estado_civil" value="D">Divorciado
+                        </article>
+                        <article class="art">                
+                            <h3>Introduzca su Número de Documento</h3>
+                            <label for="documento"></label>
+                            <input type="number" name="documento" id="documento">
+                        </article>
+                        <article class="art">                
+                            <h3>Introduzca la Fecha actual</h3>
+                            <label for="fecha">Fecha: </label>
+                            <input type="date" name="fecha" id="fecha"> 
+                        </article>
+                        <article class="art">                
+                            <h3>Adjunte su Identificación Digital</h3>
+                            <label for="archivo">Archivo: </label>
+                            <input type="file" name="archivo" id="archivo">
+                        </article>
+                    </form> 
+                </div>                                                                                     
+                <div id="aside">
+                    <br>
+                    <img src="imagen/SEGURIDAD1.jpg" width="300" height="150">
+                    <br>
+                    <img src="imagen/SEGURIDAD2.jpg" width="300" height="200">
+                    <br>
+                    <img src="imagen/SEGURIDAD3.jpg" width="300" height="100">
+                </div>
+            </div>   
+            <div id="footer"><footer>© 2021 PEGASUS, s.a.s. All rights reserved.</footer></div>
+        </div>
+        <link rel="stylesheet" href="css/LOGIN CSS.css">
+    </body>
+</html>
